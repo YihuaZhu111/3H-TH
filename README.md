@@ -19,12 +19,11 @@ This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [5]. Than
 
 ## Initialization
 
-1. environment:
+1. environment (we need torch, numpy, tqdm):
 
 ```bash
-pip3 install virtualenv
-virtualenv -p python3.7 ThreeH_TH_env
-source ThreeH_TH_env/bin/activate
+conda create --name ThreeH_TH_env
+source activate ThreeH_TH_env
 pip install -r requirements.txt
 ```
 
