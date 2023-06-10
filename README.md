@@ -49,6 +49,14 @@ source activate ThreeH_TH_env
 ## Data
 
 I have uploaded all the data that we need to use in three files.
+But we need to unzip the big dataset as following:
+```bash
+cd 3H-TH_FB15K/data/FB15K
+unzip to_skip.pickle.zip
+
+cd 3H-TH_FB237/data/FB237
+unzip to_skip.pickle.zip
+```
 
 ## usage
 
