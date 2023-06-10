@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 2. set environment variables.
 
-We use three files to do experiments for three datasets. Thus, we should set envirment variables for each files. For example, we should open 3H-TH_WN18RR file first then set environment. (we can open 3H-TH_FB237 and 3H-TH_FB15K when we want to do experiments for datasets FB15K-237 and FB15K.)
+We use three files to do experiments for three datasets. Thus, we should set envirment variables for each files. For example, we should open 3H-TH_WN18RR file first then set environment. (we can open 3H-TH_FB237 (cd 3H-TH_FB237) and 3H-TH_FB15K (cd 3H-TH_FB237)when we want to do experiments for datasets FB15K-237 and FB15K.)
 
 ```bash
 cd 3H-TH_WN18RR
