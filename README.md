@@ -1,7 +1,6 @@
 # 3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding
 
-This paper has been accepted as EACL2024 main now.
-
+This paper has been accepted to appear at the conference EACL2024 and be published in the main proceedings
 
 This is the PyTorch implementation of the [3H-TH](http://arxiv.org/abs/2305.13015) [6] model for knowledge graph embedding (KGE). 
 This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [5]. Thanks for their contributions.
