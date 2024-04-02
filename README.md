@@ -1,9 +1,39 @@
 # 3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding
 
-This paper has been accepted to appear at the conference [EACL2024](https://2024.eacl.org) and be published in the main proceedings
+This paper has been accepted to appear at the conference [EACL2024](https://2024.eacl.org) and be published in the main proceedings [3H-TH](https://aclanthology.org/2024.eacl-long.90/) (Oral Presentation).
 
 This is the PyTorch implementation of the [3H-TH](http://arxiv.org/abs/2305.13015) [6] model for knowledge graph embedding (KGE). 
 This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [5]. Thanks for their contributions.
+
+## Citation
+
+If you want to cite this paper or want to use this code, please cite the following paper:
+
+```
+@inproceedings{zhu-shimodaira-2024-3d,
+    title = "3{D} Rotation and Translation for Hyperbolic Knowledge Graph Embedding",
+    author = "Zhu, Yihua  and
+      Shimodaira, Hidetoshi",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-long.90",
+    pages = "1497--1515",
+    abstract = "The main objective of Knowledge Graph (KG) embeddings is to learn low-dimensional representations of entities and relations, enabling the prediction of missing facts. A significant challenge in achieving better KG embeddings lies in capturing relation patterns, including symmetry, antisymmetry, inversion, commutative composition, non-commutative composition, hierarchy, and multiplicity. This study introduces a novel model called 3H-TH (3D Rotation and Translation in Hyperbolic space) that captures these relation patterns simultaneously. In contrast, previous attempts have not achieved satisfactory performance across all the mentioned properties at the same time. The experimental results demonstrate that the new model outperforms existing state-of-the-art models in terms of accuracy, hierarchy property, and other relation patterns in low-dimensional space, meanwhile performing similarly in high-dimensional space.",
+}
+
+```
+
+or:
+
+
+```
+Yihua Zhu and Hidetoshi Shimodaira. 2024. 3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding. In Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1497–1515, St. Julian’s, Malta. Association for Computational Linguistics.
+```
 
 ## Models
 
@@ -136,18 +166,6 @@ python run.py \
             --multi_c 
 ```
 
-## Citation
-
-If you want to cite this paper or want to use this code, please cite the following paper:
-
-```
-@article{zhu20233d,
-  title={3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding},
-  author={Zhu, Yihua and Shimodaira, Hidetoshi},
-  journal={arXiv preprint arXiv:2305.13015},
-  year={2023}
-}
-```
 
 ## Reference
 
@@ -155,10 +173,10 @@ If you want to cite this paper or want to use this code, please cite the followi
 
 [2] Sun, Zhiqing, et al. "Rotate: Knowledge graph embedding by relational rotation in complex space." International Conference on Learning Representations. 2019.
 
-[3] Zhang S, Tay Y, Yao L, et al. Quaternion knowledge graph embeddings[J]. Advances in neural information processing systems, 2019, 32.
+[3] Zhang S, Tay Y, Yao L, et al. Quaternion knowledge graph embeddings. Advances in neural information processing systems, 2019, 32.
 
-[4] Balazevic I, Allen C, Hospedales T. Multi-relational poincaré graph embeddings[J]. Advances in Neural Information Processing Systems, 2019, 32.
+[4] Balazevic I, Allen C, Hospedales T. Multi-relational poincaré graph embeddings. Advances in Neural Information Processing Systems, 2019, 32.
 
-[5] Chami I, Wolf A, Juan D C, et al. Low-dimensional hyperbolic knowledge graph embeddings[J]. arXiv preprint arXiv:2005.00545, 2020.
+[5] Chami I, Wolf A, Juan D C, et al. Low-dimensional hyperbolic knowledge graph embeddings. arXiv preprint arXiv:2005.00545, 2020.
 
-[6] Zhu Y, Shimodaira H. 3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding[J]. arXiv preprint arXiv:2305.13015, 2023.
+[6] Zhu Y, Shimodaira H. 3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding. arXiv preprint arXiv:2305.13015, 2023.
